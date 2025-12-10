@@ -16,10 +16,8 @@ MODEL_PATH = os.path.join(ROOT_DIR, "src", "models", "saved", "best_model.pkl")
 # ================================
 clinical_states = {
     "Anxiety": "Ansiedad",
-    "Bipolar": "Bipolaridad",
     "Depression": "Depresión",
     "Normal": "Normal",
-    "Personality disorder": "Trastorno de personalidad",
     "Stress": "Estrés",
     "Suicidal": "Ideación suicida"
 }
