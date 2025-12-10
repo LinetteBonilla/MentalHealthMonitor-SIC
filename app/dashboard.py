@@ -415,8 +415,8 @@ if analyze_button:
                     yaxis_title="",
                     height=300,
                     showlegend=False,
-                    plot_bgcolor='white',
-                    paper_bgcolor='white',
+                    plot_bgcolor='black',
+                    paper_bgcolor='black',
                     font=dict(color='#4a5568'),
                     xaxis=dict(
                         showgrid=True,
@@ -462,8 +462,8 @@ if analyze_button:
                         fig_kw.update_layout(
                             height=280,
                             showlegend=False,
-                            plot_bgcolor='white',
-                            paper_bgcolor='white',
+                            plot_bgcolor='black',
+                            paper_bgcolor='black',
                             font=dict(color='#4a5568'),
                             xaxis=dict(
                                 title="Importancia",
